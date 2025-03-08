@@ -4,7 +4,7 @@ import cv2
 img = cv2.imread('assets/chessboard.png')
 # img = cv2.resize(img, (0, 0), fx=0.65, fy=0.65)
 if img is None: # check if image was loaded
-    print(f"Error: Could not load image from {img_path}")
+    print(f"Error: Could not load image from ")
     exit()
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) # convert to grayscale
 
